@@ -14,7 +14,7 @@ using namespace std;
 Pokedex* Pokedex::pinstance{nullptr};
 Pokedex::Pokedex() {
     int cmpt=0;
-    std::ifstream fichier("pokedex.csv");
+    std::ifstream fichier("../src/pokedex.csv");
     if (!fichier.is_open()) {
         std::cerr << "Impossible d'ouvrir le fichier : " << "../pokedex.csv" << std::endl;
         return;

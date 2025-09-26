@@ -54,10 +54,10 @@ int Pokemon::getEvolution() const {
 void Pokemon::strike(Pokemon& anotherPokemon) {
         if (attack > anotherPokemon.defense) {
                 anotherPokemon.lifePoint -= attack - anotherPokemon.defense;
-                cout << "Your Pokemon has been atacked" << endl;
+                cout << "You attacked an opponent's Pokemon" << endl;
                 if (anotherPokemon.lifePoint <= 0) {
                         anotherPokemon.lifePoint = 0;
-                        cout << "Your Pokemon is Dead" << endl;
+                        cout << "You have killed a Pokemon" << endl;
                         //countPokemon = countPokemon - 1;
                 }
                 else cout << "He has now " << anotherPokemon.lifePoint << " Life Points" << endl;

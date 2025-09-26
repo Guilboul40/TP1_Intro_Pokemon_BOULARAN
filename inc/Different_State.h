@@ -4,7 +4,7 @@
 
 #ifndef TD1_INTRODUCTION_C___EX1_DIFFERENT_STATE_H
 #define TD1_INTRODUCTION_C___EX1_DIFFERENT_STATE_H
-
+/*
 #include "State.h"
 
 using namespace std;
@@ -55,6 +55,6 @@ public:
         cout << "Appuyer sur B pour retourner à la page d'accueil" << endl;
     }
 };
-
+*/
 
 #endif //TD1_INTRODUCTION_C___EX1_DIFFERENT_STATE_H

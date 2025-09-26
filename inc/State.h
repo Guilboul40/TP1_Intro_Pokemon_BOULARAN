@@ -5,7 +5,7 @@
 #ifndef TD1_INTRODUCTION_C___EX1_STATE_H
 #define TD1_INTRODUCTION_C___EX1_STATE_H
 
-
+/*
 #include <iostream>
 #include <memory>
 using namespace std;
@@ -33,5 +33,6 @@ public:
     }
 
 };
+*/
 
 #endif //TD1_INTRODUCTION_C___EX1_STATE_H
